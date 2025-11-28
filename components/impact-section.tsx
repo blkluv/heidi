@@ -2,7 +2,7 @@ import { Sparkle } from 'lucide-react'
 
 export function ImpactSection() {
   return (
-    <section id="impact" className="relative py-20 md:py-28 bg-[#FCFAF8] overflow-hidden">
+    <section id="impact" className="relative py-20 md:py-28 bg-gradient-to-br from-[#FCFAF8] via-[#FBF582]/5 to-[#F6ECE4] overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="border border-sand-150 rounded-3xl p-8 md:p-12 lg:p-16 bg-white shadow-sm">
           <div className="text-center space-y-6 mb-16">

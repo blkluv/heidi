@@ -2,10 +2,11 @@ import { Sparkle } from 'lucide-react'
 
 export function FutureVisionSection() {
   return (
-    <section id="future-vision" className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
-      {/* Animated gradient blobs */}
-      <div className="absolute top-0 right-1/4 w-80 h-80 bg-[#FBF582]/8 rounded-full blur-3xl animate-[gradientShift_28s_ease-in-out_infinite]" style={{ animationDelay: '4s' }} />
-      <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-[#FBF582]/10 rounded-full blur-3xl animate-[gradientShift_32s_ease-in-out_infinite]" style={{ animationDelay: '8s' }} />
+    <section id="future-vision" className="relative py-24 md:py-32 bg-gradient-to-br from-[#FCFAF8] via-[#F6ECE4] to-[#FCFAF8] overflow-hidden">
+      {/* Animated gradient blobs with more color */}
+      <div className="absolute top-0 right-1/4 w-80 h-80 bg-[#FBF582]/12 rounded-full blur-3xl animate-[gradientShift_28s_ease-in-out_infinite]" style={{ animationDelay: '4s' }} />
+      <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-[#4A90E2]/10 rounded-full blur-3xl animate-[gradientShift_32s_ease-in-out_infinite]" style={{ animationDelay: '8s' }} />
+      <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-[#2D8659]/8 rounded-full blur-3xl animate-[gradientShift_26s_ease-in-out_infinite]" style={{ animationDelay: '6s' }} />
       
       <div className="container mx-auto px-4 md:px-6 max-w-7xl relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">

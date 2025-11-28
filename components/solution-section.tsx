@@ -2,7 +2,7 @@ import { Sparkle } from 'lucide-react'
 
 export function SolutionSection() {
   return (
-    <section id="solution" className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
+    <section id="solution" className="relative py-24 md:py-32 bg-gradient-to-br from-[#FCFAF8] via-[#FBF582]/8 to-[#F6ECE4] overflow-hidden">
       {/* Animated decorative elements */}
       <div className="absolute top-0 right-0 w-1/3 h-full opacity-5">
         <div className="absolute top-20 right-20 text-sunlight animate-[drift_20s_ease-in-out_infinite]">
@@ -13,9 +13,10 @@ export function SolutionSection() {
         </div>
       </div>
       
-      {/* Animated gradient blobs */}
-      <div className="absolute top-1/4 left-0 w-72 h-72 bg-[#FBF582]/10 rounded-full blur-3xl animate-[gradientShift_25s_ease-in-out_infinite]" style={{ animationDelay: '3s' }} />
-      <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-[#FBF582]/8 rounded-full blur-3xl animate-[gradientShift_30s_ease-in-out_infinite]" style={{ animationDelay: '7s' }} />
+      {/* Animated gradient blobs with more color */}
+      <div className="absolute top-1/4 left-0 w-72 h-72 bg-[#FBF582]/15 rounded-full blur-3xl animate-[gradientShift_25s_ease-in-out_infinite]" style={{ animationDelay: '3s' }} />
+      <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-[#4A90E2]/12 rounded-full blur-3xl animate-[gradientShift_30s_ease-in-out_infinite]" style={{ animationDelay: '7s' }} />
+      <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-[#2D8659]/10 rounded-full blur-3xl animate-[gradientShift_28s_ease-in-out_infinite]" style={{ animationDelay: '5s' }} />
 
       <div className="container mx-auto px-4 md:px-6 max-w-7xl relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
@@ -29,7 +30,7 @@ export function SolutionSection() {
           </h2>
 
           <p className="text-lg md:text-xl text-sand-100 leading-relaxed max-w-3xl mx-auto">
-            Our RPA technology pulls and pushes information between Heidi and your EMR desktop without requiring complex
+            Hailey's RPA technology pulls and pushes information between Heidi Health and your EMR desktop without requiring complex
             integrations or APIs. Everything runs locally and securely.
           </p>
 
@@ -76,7 +77,7 @@ export function SolutionSection() {
               </div>
               <h3 className="text-xl font-semibold text-inverted mb-3">Easy data transfer</h3>
               <p className="text-sand-100 leading-relaxed">
-                Very easy copy and pasting of all information between Heidi and your EMR. No manual reformatting or rewriting needed.
+                Very easy copy and pasting of all information between Heidi Health and your EMR. No manual reformatting or rewriting needed.
               </p>
             </div>
           </div>

@@ -2,10 +2,11 @@ import { Sparkle } from 'lucide-react'
 
 export function ProblemSection() {
   return (
-    <section id="problem" className="relative py-24 md:py-32 bg-[#FCFAF8] overflow-hidden">
-      {/* Animated gradient blobs */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-[#FBF582]/8 rounded-full blur-3xl animate-[gradientShift_22s_ease-in-out_infinite]" style={{ animationDelay: '2s' }} />
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#FBF582]/10 rounded-full blur-3xl animate-[gradientShift_26s_ease-in-out_infinite]" style={{ animationDelay: '6s' }} />
+    <section id="problem" className="relative py-24 md:py-32 bg-gradient-to-br from-[#FCFAF8] via-[#F6ECE4] to-[#FCFAF8] overflow-hidden">
+      {/* Animated gradient blobs with more color */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-[#FBF582]/12 rounded-full blur-3xl animate-[gradientShift_22s_ease-in-out_infinite]" style={{ animationDelay: '2s' }} />
+      <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#4A90E2]/10 rounded-full blur-3xl animate-[gradientShift_26s_ease-in-out_infinite]" style={{ animationDelay: '6s' }} />
+      <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-[#2D8659]/8 rounded-full blur-3xl animate-[gradientShift_24s_ease-in-out_infinite]" style={{ animationDelay: '4s' }} />
       
       <div className="container mx-auto px-4 md:px-6 max-w-7xl relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -41,7 +42,7 @@ export function ProblemSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-bark mb-2">2-5 minutes per patient</h3>
-                  <p className="text-secondary leading-relaxed">Wasted on copying from Heidi to EMR systems (according to Gihan)</p>
+                  <p className="text-secondary leading-relaxed">Wasted on copying from Heidi Health to EMR systems (according to Gihan)</p>
                 </div>
               </div>
             </div>
