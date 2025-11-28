@@ -84,7 +84,22 @@ export function FutureVisionSection() {
                     <div className="w-2 h-2 rounded-full bg-sunlight animate-pulse" />
                     <span className="text-xs font-semibold text-sunlight">AI Assistant Active</span>
                   </div>
-                  <h3 className="font-serif text-3xl text-inverted">Tab. Tab. Tab.</h3>
+                  <div className="space-y-3">
+                    <h3 className="font-serif text-3xl text-inverted flex items-center gap-2 flex-wrap">
+                      <span className="inline-flex items-center gap-2">
+                        <kbd className="px-3 py-1.5 bg-sand-100/10 border border-sand-100/20 rounded-md text-sm font-mono text-sunlight animate-[tabPress_2s_ease-in-out_infinite] shadow-lg">TAB</kbd>
+                        <span className="text-sand-100">.</span>
+                      </span>
+                      <span className="inline-flex items-center gap-2">
+                        <kbd className="px-3 py-1.5 bg-sand-100/10 border border-sand-100/20 rounded-md text-sm font-mono text-sunlight animate-[tabPress_2s_ease-in-out_infinite] shadow-lg" style={{ animationDelay: '0.7s' }}>TAB</kbd>
+                        <span className="text-sand-100">.</span>
+                      </span>
+                      <span className="inline-flex items-center gap-2">
+                        <kbd className="px-3 py-1.5 bg-sand-100/10 border border-sand-100/20 rounded-md text-sm font-mono text-sunlight animate-[tabPress_2s_ease-in-out_infinite] shadow-lg" style={{ animationDelay: '1.4s' }}>TAB</kbd>
+                        <span className="text-sand-100">.</span>
+                      </span>
+                    </h3>
+                  </div>
                   <p className="text-sand-100 text-lg leading-relaxed">
                     That's all it takes. Review, confirm, and move on. The system learns your workflow and handles the
                     rest.
