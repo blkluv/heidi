@@ -9,10 +9,12 @@ import { CTASection } from "@/components/cta-section"
 export default function HomePage() {
   return (
     <main className="min-h-screen">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <ProblemSection />
       <SolutionSection />
+      {/* how it works */}
+      {/* video slot for demo */}
       <ImpactSection />
       <FutureVisionSection />
       <CTASection />
