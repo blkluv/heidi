@@ -26,33 +26,33 @@ export function CTASection() {
 
       <div className="container mx-auto px-4 md:px-6 max-w-5xl relative z-10">
         <div className="text-center space-y-8">
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-inverted leading-tight text-balance">
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-inverted leading-tight text-balance animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.1s' }}>
             The first step towards <span className="italic text-sunlight">zero-admin</span> medicine.
           </h2>
 
-          <p className="text-xl md:text-2xl text-sand-100 leading-relaxed max-w-3xl mx-auto text-balance">
+          <p className="text-xl md:text-2xl text-sand-100 leading-relaxed max-w-3xl mx-auto text-balance animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.2s' }}>
             This is the future of clinical automation. Join us in building Heidi Health's vision of seamless, intelligent
             healthcare with Hailey.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.3s' }}>
             <Button
               onClick={scrollToContact}
               size="lg"
-              className="bg-[#211217] hover:bg-[#211217]/90 text-[#F9F4F1] font-semibold px-8 py-6 text-lg rounded-3xl shadow-lg hover:shadow-xl transition-all"
+              className="bg-[#211217] hover:bg-[#211217]/90 text-[#F9F4F1] font-semibold px-8 py-6 text-lg rounded-3xl shadow-lg hover:shadow-xl transition-all hover:scale-105 active:scale-95"
             >
               Learn more
             </Button>
           </div>
 
-          <div className="pt-12 space-y-4">
+          <div className="pt-12 space-y-4 animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.3s' }}>
             <p className="text-sand-100 text-sm">Trusted by clinicians worldwide</p>
             <div className="flex justify-center gap-8 opacity-60">
-              <div className="text-sand-100 text-sm">2M+ consultations/week</div>
+              <div className="text-sand-100 text-sm transition-all duration-300 hover:opacity-100 hover:scale-105">1.5-2.5 hrs saved daily</div>
               <div className="text-sand-100 text-sm">•</div>
-              <div className="text-sand-100 text-sm">200+ specialties</div>
+              <div className="text-sand-100 text-sm transition-all duration-300 hover:opacity-100 hover:scale-105">200+ specialties</div>
               <div className="text-sand-100 text-sm">•</div>
-              <div className="text-sand-100 text-sm">8M+ hours saved</div>
+              <div className="text-sand-100 text-sm transition-all duration-300 hover:opacity-100 hover:scale-105">100% EMR compatible</div>
             </div>
           </div>
         </div>

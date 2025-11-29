@@ -44,9 +44,9 @@ export function ProblemSection() {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.1s' }}>
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-sunlight/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+                <div className="w-12 h-12 rounded-full bg-sunlight/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2.5s_ease-in-out_infinite]">
                   <svg className="w-6 h-6 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path
                       strokeLinecap="round"
@@ -63,9 +63,9 @@ export function ProblemSection() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.2s' }}>
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+                <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2.5s_ease-in-out_infinite]" style={{ animationDelay: '0.5s' }}>
                   <svg className="w-6 h-6 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path
                       strokeLinecap="round"
@@ -82,9 +82,9 @@ export function ProblemSection() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.3s' }}>
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-forest/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+                <div className="w-12 h-12 rounded-full bg-forest/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2.5s_ease-in-out_infinite]" style={{ animationDelay: '1s' }}>
                   <svg className="w-6 h-6 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path
                       strokeLinecap="round"
@@ -101,9 +101,9 @@ export function ProblemSection() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer">
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-sand-150 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group cursor-pointer animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.4s' }}>
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+                <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2.5s_ease-in-out_infinite]" style={{ animationDelay: '1.5s' }}>
                   <svg className="w-6 h-6 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path
                       strokeLinecap="round"

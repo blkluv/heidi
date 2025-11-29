@@ -35,8 +35,8 @@ export function SolutionSection() {
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 pt-12">
-            <div className="bg-bark/40 backdrop-blur-sm border border-sand-150/20 rounded-2xl p-8 text-left transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:bg-bark/50 group">
-              <div className="w-12 h-12 rounded-full bg-sunlight/20 flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+            <div className="bg-bark/40 backdrop-blur-sm border border-sand-150/20 rounded-2xl p-8 text-left transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:bg-bark/50 group animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.1s' }}>
+              <div className="w-12 h-12 rounded-full bg-sunlight/20 flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2s_ease-in-out_infinite]">
                 <svg className="w-6 h-6 text-sunlight" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
@@ -47,8 +47,8 @@ export function SolutionSection() {
               </p>
             </div>
 
-            <div className="bg-bark/40 backdrop-blur-sm border border-sand-150/20 rounded-2xl p-8 text-left transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:bg-bark/50 group">
-              <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+            <div className="bg-bark/40 backdrop-blur-sm border border-sand-150/20 rounded-2xl p-8 text-left transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:bg-bark/50 group animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.2s' }}>
+              <div className="w-12 h-12 rounded-full bg-sky/20 flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2s_ease-in-out_infinite]" style={{ animationDelay: '0.3s' }}>
                 <svg className="w-6 h-6 text-sky" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path
                     strokeLinecap="round"
@@ -64,8 +64,8 @@ export function SolutionSection() {
               </p>
             </div>
 
-            <div className="bg-bark/40 backdrop-blur-sm border border-sand-150/20 rounded-2xl p-8 text-left transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:bg-bark/50 group">
-              <div className="w-12 h-12 rounded-full bg-forest/20 flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
+            <div className="bg-bark/40 backdrop-blur-sm border border-sand-150/20 rounded-2xl p-8 text-left transition-all duration-300 hover:shadow-xl hover:-translate-y-2 hover:bg-bark/50 group animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.3s' }}>
+              <div className="w-12 h-12 rounded-full bg-forest/20 flex items-center justify-center mb-6 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2s_ease-in-out_infinite]" style={{ animationDelay: '0.6s' }}>
                 <svg className="w-6 h-6 text-forest" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path
                     strokeLinecap="round"

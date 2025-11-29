@@ -30,8 +30,8 @@ export function FutureVisionSection() {
             </p>
 
                 <div className="space-y-6 pt-4">
-                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
-                    <div className="w-8 h-8 rounded-full bg-sunlight flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2 animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.1s' }}>
+                    <div className="w-8 h-8 rounded-full bg-sunlight flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2.5s_ease-in-out_infinite]">
                       <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
@@ -44,8 +44,8 @@ export function FutureVisionSection() {
                     </div>
                   </div>
 
-                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
-                    <div className="w-8 h-8 rounded-full bg-sky flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2 animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.2s' }}>
+                    <div className="w-8 h-8 rounded-full bg-sky flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2.5s_ease-in-out_infinite]" style={{ animationDelay: '0.5s' }}>
                       <svg className="w-4 h-4 text-bark" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
@@ -58,9 +58,9 @@ export function FutureVisionSection() {
                     </div>
                   </div>
 
-                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2">
-                    <div className="w-8 h-8 rounded-full bg-forest flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
-                      <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="flex gap-4 group cursor-pointer transition-all duration-300 hover:translate-x-2 animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.3s' }}>
+                    <div className="w-8 h-8 rounded-full bg-forest flex items-center justify-center flex-shrink-0 mt-1 transition-all duration-300 group-hover:scale-110 group-hover:rotate-12 animate-[pulse_2.5s_ease-in-out_infinite]" style={{ animationDelay: '1s' }}>
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
@@ -74,8 +74,8 @@ export function FutureVisionSection() {
                 </div>
           </div>
 
-          <div className="relative">
-            <div className="bg-bark rounded-3xl p-12 relative overflow-hidden transition-all duration-300 hover:shadow-2xl">
+          <div className="relative animate-[fadeInUp_1s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.4s' }}>
+            <div className="bg-bark rounded-3xl p-12 relative overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]">
               <div className="absolute top-0 right-0 w-64 h-64 bg-sunlight/10 rounded-full blur-3xl animate-[gradientShift_20s_ease-in-out_infinite]" />
               <div className="absolute bottom-0 left-0 w-64 h-64 bg-sky/10 rounded-full blur-3xl animate-[gradientShift_25s_ease-in-out_infinite]" style={{ animationDelay: '5s' }} />
 

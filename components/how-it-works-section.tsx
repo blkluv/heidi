@@ -158,16 +158,16 @@ export function HowItWorksSection() {
                 {/* Steps */}
                 <div className="grid md:grid-cols-3 gap-8 mb-20 pb-28">
                     {steps.map((step, index) => (
-                        <div key={index} className="relative group">
+                        <div key={index} className="relative group animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: `${0.1 + index * 0.1}s` }}>
                             <div className="bg-card border rounded-lg p-8 h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-primary/30">
-                                <div className="text-6xl font-bold text-primary/20 mb-4 transition-all duration-300 group-hover:text-primary/30 group-hover:scale-110">
+                                <div className="text-6xl font-bold text-primary/20 mb-4 transition-all duration-300 group-hover:text-primary/30 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: `${0.2 + index * 0.1}s` }}>
                                     {step.number}
                                 </div>
                                 <h3 className="font-serif text-2xl font-semibold mb-3 transition-colors duration-300 group-hover:text-primary">{step.title}</h3>
                                 <p className="text-muted-foreground transition-colors duration-300 group-hover:text-foreground">{step.description}</p>
                             </div>
                             {index < steps.length - 1 && (
-                                <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 transition-transform duration-300 group-hover:translate-x-1">
+                                <div className="hidden md:block absolute top-1/2 -right-4 transform -translate-y-1/2 transition-transform duration-300 group-hover:translate-x-1 animate-[gentleFloat_4s_ease-in-out_infinite]" style={{ animationDelay: `${index * 0.5}s` }}>
                                     <svg
                                         className="w-8 h-8 text-primary/30 transition-colors duration-300 group-hover:text-primary/50"
                                         fill="none"
@@ -188,8 +188,8 @@ export function HowItWorksSection() {
                 </div>
 
                 {/* Video Demo */}
-                <div className="mb-24">
-                    <div className="bg-card border rounded-xl overflow-hidden transition-all hover:shadow-lg hover:border-primary/20">
+                <div className="mb-24 animate-[fadeInUp_1s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.4s' }}>
+                    <div className="bg-card border rounded-xl overflow-hidden transition-all hover:shadow-lg hover:border-primary/20 hover:scale-[1.02]">
                         <div className="aspect-video relative bg-black rounded-xl overflow-hidden">
                             <iframe
                                 key="loom-demo-video"

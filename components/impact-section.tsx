@@ -23,8 +23,8 @@ export function ImpactSection() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center space-y-4 transition-all duration-300 hover:scale-105 group">
-              <div className="w-20 h-20 rounded-full bg-sunlight/20 flex items-center justify-center mx-auto transition-all duration-300 group-hover:scale-110 group-hover:bg-sunlight/30 group-hover:shadow-lg">
+            <div className="text-center space-y-4 transition-all duration-300 hover:scale-105 group animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.1s' }}>
+              <div className="w-20 h-20 rounded-full bg-sunlight/20 flex items-center justify-center mx-auto transition-all duration-300 group-hover:scale-110 group-hover:bg-sunlight/30 group-hover:shadow-lg animate-[pulse_3s_ease-in-out_infinite]">
                 <svg className="w-10 h-10 text-bark transition-transform duration-300 group-hover:rotate-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path
                     strokeLinecap="round"
@@ -35,13 +35,13 @@ export function ImpactSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110">80%</p>
-                <p className="text-lg text-secondary mt-2">Time saved per patient</p>
+                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]">1.5-2.5</p>
+                <p className="text-lg text-secondary mt-2">Hours saved daily</p>
               </div>
             </div>
 
-            <div className="text-center space-y-4 transition-all duration-300 hover:scale-105 group">
-              <div className="w-20 h-20 rounded-full bg-sky/20 flex items-center justify-center mx-auto transition-all duration-300 group-hover:scale-110 group-hover:bg-sky/30 group-hover:shadow-lg">
+            <div className="text-center space-y-4 transition-all duration-300 hover:scale-105 group animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.2s' }}>
+              <div className="w-20 h-20 rounded-full bg-sky/20 flex items-center justify-center mx-auto transition-all duration-300 group-hover:scale-110 group-hover:bg-sky/30 group-hover:shadow-lg animate-[pulse_3s_ease-in-out_infinite]" style={{ animationDelay: '0.5s' }}>
                 <svg className="w-10 h-10 text-bark transition-transform duration-300 group-hover:rotate-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path
                     strokeLinecap="round"
@@ -52,13 +52,13 @@ export function ImpactSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110">95%</p>
+                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: '0.3s' }}>95%</p>
                 <p className="text-lg text-secondary mt-2">Accuracy of data transfer</p>
               </div>
             </div>
 
-            <div className="text-center space-y-4 transition-all duration-300 hover:scale-105 group">
-              <div className="w-20 h-20 rounded-full bg-forest/20 flex items-center justify-center mx-auto transition-all duration-300 group-hover:scale-110 group-hover:bg-forest/30 group-hover:shadow-lg">
+            <div className="text-center space-y-4 transition-all duration-300 hover:scale-105 group animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.3s' }}>
+              <div className="w-20 h-20 rounded-full bg-forest/20 flex items-center justify-center mx-auto transition-all duration-300 group-hover:scale-110 group-hover:bg-forest/30 group-hover:shadow-lg animate-[pulse_3s_ease-in-out_infinite]" style={{ animationDelay: '1s' }}>
                 <svg className="w-10 h-10 text-bark transition-transform duration-300 group-hover:rotate-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path
                     strokeLinecap="round"
@@ -69,13 +69,13 @@ export function ImpactSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110">70%</p>
+                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: '0.4s' }}>70%</p>
                 <p className="text-lg text-secondary mt-2">Reduction in context switching</p>
               </div>
             </div>
 
-            <div className="text-center space-y-4 transition-all duration-300 hover:scale-105 group">
-              <div className="w-20 h-20 rounded-full bg-sunlight/20 flex items-center justify-center mx-auto transition-all duration-300 group-hover:scale-110 group-hover:bg-sunlight/30 group-hover:shadow-lg">
+            <div className="text-center space-y-4 transition-all duration-300 hover:scale-105 group animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.4s' }}>
+              <div className="w-20 h-20 rounded-full bg-sunlight/20 flex items-center justify-center mx-auto transition-all duration-300 group-hover:scale-110 group-hover:bg-sunlight/30 group-hover:shadow-lg animate-[pulse_3s_ease-in-out_infinite]" style={{ animationDelay: '1.5s' }}>
                 <svg className="w-10 h-10 text-bark transition-transform duration-300 group-hover:rotate-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path
                     strokeLinecap="round"
@@ -86,7 +86,7 @@ export function ImpactSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110">100%</p>
+                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: '0.5s' }}>100%</p>
                 <p className="text-lg text-secondary mt-2">EMR compatibility</p>
               </div>
             </div>
