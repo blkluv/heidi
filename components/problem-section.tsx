@@ -42,7 +42,7 @@ export function ProblemSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-bark mb-2">2-5 minutes per patient</h3>
-                  <p className="text-secondary leading-relaxed">Wasted on copying from Heidi Health to EMR systems (according to Gihan)</p>
+                  <p className="text-secondary leading-relaxed">Wasted on copying from Heidi Health to EMR systems</p>
                 </div>
               </div>
             </div>
