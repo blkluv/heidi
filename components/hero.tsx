@@ -74,7 +74,7 @@ export function Hero() {
 
         <div className="container relative mx-auto px-6 md:px-12">
           <div className="mx-auto max-w-4xl text-center">
-            <p className="mb-8 text-sm text-[#755760] tracking-wide">AI trusted and loved by clinicians</p>
+            <p className="mb-8 text-sm text-[#755760] tracking-wide font-bold">AI trusted and loved by clinicians</p>
 
             <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.1] tracking-tight text-[#211217] text-balance">
               Get <span className="italic">more</span> time back. <br className="hidden md:block" />
@@ -84,7 +84,7 @@ export function Hero() {
             <p className="mb-6 text-lg md:text-xl text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
               We're bringing clinicians one step closer to Heidi's vision of zero-admin medicine with <span className="font-semibold text-[#211217]">Hailey</span>, our <span className="font-semibold text-[#211217]">instant, predictive EMR automation</span>.
             </p>
-            <p className="mb-10 text-base md:text-lg text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
+            <p className="mb-6 text-base md:text-lg text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
               Imagine if Hailey could complete tasks <span className="italic">before</span> you even think of them. Clinician experience becomes: <span className="font-semibold text-[#211217]">TAB → TAB → Confirm</span>. Just review and confirm, freeing clinician time to actually care for patients.
             </p>
 
