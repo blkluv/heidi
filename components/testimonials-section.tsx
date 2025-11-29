@@ -6,14 +6,14 @@ export function TestimonialsSection() {
       {/* Animated gradient blobs */}
       <div className="absolute top-0 right-1/4 w-80 h-80 bg-[#FBF582]/12 rounded-full blur-3xl animate-[gradientShift_28s_ease-in-out_infinite]" style={{ animationDelay: '4s' }} />
       <div className="absolute bottom-0 left-1/4 w-72 h-72 bg-[#4A90E2]/10 rounded-full blur-3xl animate-[gradientShift_32s_ease-in-out_infinite]" style={{ animationDelay: '8s' }} />
-      
+
       <div className="container mx-auto px-4 md:px-6 max-w-7xl relative z-10">
         {/* Header */}
-        <div className="text-center mb-16 animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.1s' }}>
+        {/* <div className="text-center mb-16 animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.1s' }}>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-bark leading-tight max-w-4xl mx-auto">
             Trusted by clinicians for <span className="italic">measurable</span> impact
           </h2>
-        </div>
+        </div> */}
 
         {/* Cards Grid */}
         <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
@@ -25,7 +25,7 @@ export function TestimonialsSection() {
               <span className="text-[8px] font-bold leading-tight">RATED</span>
               <span className="text-[6px] mt-0.5 opacity-80">Spotlight</span>
             </div>
-            
+
             <div className="mt-20 space-y-6">
               <p className="text-xl md:text-2xl font-semibold leading-relaxed">
                 100% of clinicians surveyed said they would recommend Hailey to their colleagues.
@@ -81,7 +81,7 @@ export function TestimonialsSection() {
               <span className="font-semibold">Read the report</span>
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
-            
+
             {/* Large Icon */}
             <div className="flex justify-center my-8">
               <div className="w-32 h-32 rounded-full border-4 border-sunlight/30 flex items-center justify-center">
@@ -90,7 +90,7 @@ export function TestimonialsSection() {
                 </svg>
               </div>
             </div>
-            
+
             <p className="text-xl md:text-2xl font-semibold leading-relaxed text-center">
               Clinical automation demands a new approach to EMR integration.
             </p>

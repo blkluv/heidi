@@ -12,7 +12,7 @@ export function SolutionSection() {
           </svg>
         </div>
       </div>
-      
+
       {/* Animated gradient blobs with more color */}
       <div className="absolute top-1/4 left-0 w-72 h-72 bg-[#FBF582]/15 rounded-full blur-3xl animate-[gradientShift_25s_ease-in-out_infinite]" style={{ animationDelay: '3s' }} />
       <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-[#4A90E2]/12 rounded-full blur-3xl animate-[gradientShift_30s_ease-in-out_infinite]" style={{ animationDelay: '7s' }} />
@@ -26,7 +26,7 @@ export function SolutionSection() {
           </div>
 
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-inverted leading-tight">
-            Seamless integration with <span className="italic text-sunlight">any</span> EMR system.
+            Seameless integration with <span className="italic text-sunlight">any</span> EMR system.
           </h2>
 
           <p className="text-lg md:text-xl text-sand-100 leading-relaxed max-w-3xl mx-auto">

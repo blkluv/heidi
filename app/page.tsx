@@ -16,7 +16,7 @@ export default function HomePage() {
       <SolutionSection />
       <HowItWorksSection />
       <ImpactSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <FutureVisionSection />
       {/* <ContactSection /> */}
       <CTASection />
