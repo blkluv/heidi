@@ -67,7 +67,7 @@ export function FutureVisionSection() {
                     <div>
                       <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Complete automation</h3>
                       <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
-                        No more reliance on gatekeepers like BP or exclusive partnerships. Automate everything without waiting for partnerships. True clinical freedom.
+                        No more reliance on gatekeepers like Best Practice or exclusive partnerships. Automate everything without waiting for partnerships. True clinical freedom.
                       </p>
                     </div>
                   </div>
