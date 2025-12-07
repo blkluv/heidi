@@ -85,7 +85,7 @@ export function Hero() {
               The WeedMaps alternative with a <span className="font-semibold text-[#211217]">POS</span>, <span className="font-semibold text-[#211217]">TikTok ReelViews</span> mapped to your 3 word dispensary address we run ads on social media platforms to bring you customers looking for your products.
             </p>
             <p className="mb-6 text-base md:text-lg text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
-              We have a <span className="italic">leaderboard</span> that turns your customers to your marketing staff <span className="font-semibold text-[#211217]">Buy → ReelView It → Earn</span>.
+              We have a <span className="italic">leaderboard</span> that turns your customers to your marketing staff <br></br><span className="font-semibold text-[#211217]">Buy It → ReelView It → Upvote It</span>.
             </p>
 
             <Button
