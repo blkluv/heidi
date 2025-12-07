@@ -31,8 +31,7 @@ export function ContactSection() {
             Integrate <span className="italic">Hailey</span> into the <span className="italic">Heidi Health ecosystem</span>.
           </h2>
           <p className="text-lg md:text-xl text-[#755760] leading-relaxed max-w-2xl mx-auto">
-            This is the first step towards building Heidi Health's vision of zero-admin medicine. 
-            Join us in building the future of clinical automation.
+            Join us in building the future of dispensary automation.
           </p>
         </div>
 

@@ -105,7 +105,7 @@ The solution delivers measurable results aligned with hackathon judging criteria
 - HIPAA-compliant architecture
 
 #### Challenge 3: Speed & Performance
-**Problem:** Automation must be fast enough to not disrupt clinical workflow.
+**Problem:** Automation must be fast enough to not disrupt dispensary workflow.
 
 **Solution:**
 - Optimized RPA scripts for minimal processing time
@@ -118,7 +118,7 @@ The solution delivers measurable results aligned with hackathon judging criteria
 **Solution:**
 - Designed "TAB → TAB → Confirm" workflow - simple and familiar
 - Pattern learning system that adapts to individual clinician workflows
-- Non-blocking automation that doesn't interrupt clinical flow
+- Non-blocking automation that doesn't interrupt dispensary flow
 
 ### Considerations for Future Scaling
 

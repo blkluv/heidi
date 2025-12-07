@@ -26,12 +26,13 @@ export function SolutionSection() {
           </div>
 
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-inverted leading-tight">
-            Seameless integration with <span className="italic text-sunlight">any</span> EMR system.
+            Intelligent Cannabis Discovery, <span className="italic text-sunlight">Powered</span> by Community
           </h2>
 
           <p className="text-lg md:text-xl text-sand-100 leading-relaxed max-w-3xl mx-auto">
-            Hailey's RPA technology pulls and pushes information between Heidi Health and your EMR desktop without requiring complex
-            integrations or APIs. Everything runs locally and securely.
+             HealXYZ is the Facebook-like social media for cannabis—with no algorithms—creating authentic connections where
+             verified dispensary listings meet trusted community reviews, powered by gamified challenges that reward the best
+             11-second product ReelViews.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6 pt-12">
@@ -41,9 +42,9 @@ export function SolutionSection() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-inverted mb-3">No integrations needed</h3>
+              <h3 className="text-xl font-semibold text-inverted mb-3">Airdrop</h3>
               <p className="text-sand-100 leading-relaxed">
-                Works with any EMR system without complex API integrations or lengthy setup processes
+                We airdrop digital coupons that can only be redeemed in-store at participating dispensaries
               </p>
             </div>
 
@@ -58,9 +59,9 @@ export function SolutionSection() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-inverted mb-3">Runs locally</h3>
+              <h3 className="text-xl font-semibold text-inverted mb-3">Verified</h3>
               <p className="text-sand-100 leading-relaxed">
-                All processing happens on your device, ensuring maximum security and privacy for patient data
+                We physical products to digital merch using blockchain technology to ensure authenticity
               </p>
             </div>
 
@@ -75,9 +76,9 @@ export function SolutionSection() {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-inverted mb-3">Easy data transfer</h3>
+              <h3 className="text-xl font-semibold text-inverted mb-3">POS</h3>
               <p className="text-sand-100 leading-relaxed">
-                Automated copy and paste for all information between Heidi and your EMR. No manual reformatting or rewriting needed.
+                Turn every anonymous transaction into a known community member who earns points on purchases
               </p>
             </div>
           </div>

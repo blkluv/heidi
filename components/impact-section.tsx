@@ -11,14 +11,11 @@ export function ImpactSection() {
               <p className="text-sm font-semibold text-bark">Real Impact</p>
             </div>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-bark leading-tight max-w-4xl mx-auto">
-              Clinicians get their time <span className="italic">back</span>.
+              Dispensary <span className="italic">UGC</span>.
             </h2>
             <p className="text-lg md:text-xl text-secondary leading-relaxed max-w-3xl mx-auto">
-              No more constant context switching. Less clicks. Works with whatever EMR you're using. Safer for patient privacy
-              and data security.
-            </p>
-            <p className="text-base text-secondary leading-relaxed max-w-3xl mx-auto font-medium">
-              The clinician experience becomes: <span className="text-bark font-semibold">TAB → TAB → Confirm</span> allowing clinician's to get time back and move care forward.
+              Every UGC video is essentially free, authentic marketing that reaches <span className="text-bark font-semibold">300%</span> more people organically than paid ads.
+              Customers who create UGC content have <span className="text-bark font-semibold">65%</span> higher retention rates and spend <span className="text-bark font-semibold">40%</span> more over their lifetime as brand advocates.
             </p>
           </div>
 
@@ -35,8 +32,8 @@ export function ImpactSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]">1.5-2.5</p>
-                <p className="text-lg text-secondary mt-2">Hours saved daily</p>
+                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]">90%</p>
+                <p className="text-lg text-secondary mt-2">Trust UGC Over Ads</p>
               </div>
             </div>
 
@@ -52,8 +49,8 @@ export function ImpactSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: '0.3s' }}>95%</p>
-                <p className="text-lg text-secondary mt-2">Accuracy of data transfer</p>
+                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: '0.3s' }}>6.7x</p>
+                <p className="text-lg text-secondary mt-2">Higher Engagement</p>
               </div>
             </div>
 
@@ -69,8 +66,8 @@ export function ImpactSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: '0.4s' }}>70%</p>
-                <p className="text-lg text-secondary mt-2">Reduction in context switching</p>
+                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: '0.4s' }}>34%</p>
+                <p className="text-lg text-secondary mt-2">Increase in Conversions</p>
               </div>
             </div>
 
@@ -86,8 +83,8 @@ export function ImpactSection() {
                 </svg>
               </div>
               <div>
-                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: '0.5s' }}>100%</p>
-                <p className="text-lg text-secondary mt-2">EMR compatibility</p>
+                <p className="font-serif text-5xl md:text-6xl text-bark font-semibold transition-all duration-300 group-hover:scale-110 animate-[scaleIn_1s_ease-out_forwards]" style={{ animationDelay: '0.5s' }}>73%</p>
+                <p className="text-lg text-secondary mt-2">Higher Purchase Confidence</p>
               </div>
             </div>
           </div>

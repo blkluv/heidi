@@ -31,8 +31,8 @@ export function CTASection() {
           </h2>
 
           <p className="text-xl md:text-2xl text-sand-100 leading-relaxed max-w-3xl mx-auto text-balance animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.2s' }}>
-            This is the future of clinical automation. Join us in building Heidi Health's vision of seamless, intelligent
-            healthcare with Hailey.
+            This is the future of dispensary automation. Join us in building HealXYZ vision of seamless, intelligent
+            marketing that benefits all parties.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.3s' }}>

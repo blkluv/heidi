@@ -32,14 +32,13 @@ export function ProblemSection() {
               <p className="text-sm font-semibold text-bark">The Problem</p>
             </div>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-bark leading-tight">
-              Clinicians waste precious time on <span className="italic">manual</span> data entry.
+              Generic Directories' <span className="italic">ROI</span> "Math" Isn't Mathing.
             </h2>
             <p className="text-lg md:text-xl text-secondary leading-relaxed">
-              Every patient encounter requires tedious copying between systems, breaking clinical flow and increasing
-              the risk of errors. Clinicians are stuck with legacy EMRs that are slow and hard to connect with modern software.
+              For patients: You waste hours scrolling through outdated menus and fake reviews, only to find the product you wanted was sold out days ago.
             </p>
             <p className="text-base text-secondary leading-relaxed">
-              *Best Practice (BP) has 70% of all Australian GPs using their system, but they're gatekept by exclusive partnerships with Lyrebird, limiting innovation and choice for clinicians.
+              For dispensaries: You pay high listing fees for anonymous clicks that never convert to loyal customers, while struggling to stand out in a sea of competitors.
             </p>
           </div>
 
@@ -57,8 +56,8 @@ export function ProblemSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-bark mb-2">2-5 minutes per patient</h3>
-                  <p className="text-secondary leading-relaxed">Wasted on copying from Heidi Health to EMR systems</p>
+                  <h3 className="text-xl font-semibold text-bark mb-2">Outdated & Inaccurate Menus</h3>
+                  <p className="text-secondary leading-relaxed">Menus show products that sold out days ago</p>
                 </div>
               </div>
             </div>
@@ -76,8 +75,8 @@ export function ProblemSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-bark mb-2">Constant context switching</h3>
-                  <p className="text-secondary leading-relaxed">Breaking clinical flow and concentration</p>
+                  <h3 className="text-xl font-semibold text-bark mb-2">No Community Connection</h3>
+                  <p className="text-secondary leading-relaxed">I can't ask questions or see real experiences</p>
                 </div>
               </div>
             </div>
@@ -95,8 +94,8 @@ export function ProblemSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-bark mb-2">Higher error risk</h3>
-                  <p className="text-secondary leading-relaxed">Manual reformatting creates security risks with PHI</p>
+                  <h3 className="text-xl font-semibold text-bark mb-2">Fake & Paid Reviews</h3>
+                  <p className="text-secondary leading-relaxed">83% of users don't trust the ratings</p>
                 </div>
               </div>
             </div>
@@ -114,8 +113,8 @@ export function ProblemSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-bark mb-2">Gatekept by partnerships</h3>
-                  <p className="text-secondary leading-relaxed">Exclusive partnerships like Best Practice* and Lyrebird limit innovation and choice</p>
+                  <h3 className="text-xl font-semibold text-bark mb-2">Zero Personalization</h3>
+                  <p className="text-secondary leading-relaxed">It's just scrolling until I give up</p>
                 </div>
               </div>
             </div>

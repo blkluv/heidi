@@ -74,18 +74,18 @@ export function Hero() {
 
         <div className="container relative mx-auto px-6 md:px-12">
           <div className="mx-auto max-w-4xl text-center">
-            <p className="mb-8 text-sm text-[#755760] tracking-wide font-bold">AI trusted and loved by clinicians</p>
+            <p className="mb-8 text-sm text-[#755760] tracking-wide font-bold">The Social-Powered Weedmaps Alternative</p>
 
             <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.1] tracking-tight text-[#211217] text-balance">
-              Get <span className="italic">more</span> time back. <br className="hidden md:block" />
-              Move <span className="italic">better</span> care forward.
+              The <span className="italic">First</span> Social Marketplace<br className="hidden md:block" />
+              For <span className="italic">Dispensary</span> Marketing
             </h1>
 
             <p className="mb-6 text-lg md:text-xl text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
-              We're bringing clinicians one step closer to Heidi's vision of zero-admin medicine with <span className="font-semibold text-[#211217]">Hailey</span>, our <span className="font-semibold text-[#211217]">instant, predictive EMR automation</span>.
+              The WeedMaps alternative with a <span className="font-semibold text-[#211217]">POS</span>, <span className="font-semibold text-[#211217]">TikTok ReelViews</span> mapped to your 3 word dispensary address we run ads on social media platforms to bring you customers looking for your products.
             </p>
             <p className="mb-6 text-base md:text-lg text-[#755760] leading-relaxed max-w-2xl mx-auto text-pretty">
-              Imagine if Hailey could complete tasks <span className="italic">before</span> you even think of them. Clinician experience becomes: <span className="font-semibold text-[#211217]">TAB → TAB → Confirm</span>. Just review and confirm, freeing clinician time to actually care for patients.
+              We have a <span className="italic">leaderboard</span> that turns your customers to your marketing staff <span className="font-semibold text-[#211217]">Buy → ReelView It → Earn</span>.
             </p>
 
             <Button
@@ -94,7 +94,7 @@ export function Hero() {
               className="bg-[#211217] text-[#F9F4F1] hover:bg-[#211217]/90 rounded-full px-8 py-6 text-lg font-medium gap-2 transition-all duration-300 hover:scale-105 hover:shadow-xl active:scale-95"
             >
               <Plus className="w-5 h-5 transition-transform duration-300 group-hover:rotate-90" />
-              Get Hailey free
+              Pricing
             </Button>
           </div>
         </div>

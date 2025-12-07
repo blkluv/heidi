@@ -17,7 +17,7 @@ export function FutureVisionSection() {
             </div>
 
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-bark leading-tight">
-              The future of <span className="italic">clinical automation</span>.
+              The future of <span className="italic">dispensary automation</span>.
             </h2>
 
             <p className="text-lg md:text-xl text-secondary leading-relaxed">
@@ -25,7 +25,7 @@ export function FutureVisionSection() {
               and automates everything before you even think about it.
             </p>
             <p className="text-base text-secondary leading-relaxed">
-              Always watching and learning your clinical patterns, recognizing what you need before you know it. 
+              Always watching and learning your dispensary sales, recognizing what you need before you know it. 
               The system will learn over time and become more and more automated.
             </p>
 
@@ -39,7 +39,7 @@ export function FutureVisionSection() {
                     <div>
                       <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Always learning</h3>
                       <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
-                        Continuously watching and understanding your clinical patterns to become more intelligent over time
+                        Continuously watching and understanding your dispensary patterns to become more intelligent over time
                       </p>
                     </div>
                   </div>
@@ -67,7 +67,7 @@ export function FutureVisionSection() {
                     <div>
                       <h3 className="text-xl font-semibold text-bark mb-2 transition-colors duration-300 group-hover:text-primary">Complete automation</h3>
                       <p className="text-secondary leading-relaxed transition-colors duration-300 group-hover:text-foreground">
-                        No more reliance on gatekeepers like Best Practice or exclusive partnerships. Automate everything without waiting for partnerships. True clinical freedom.
+                        No more reliance on gatekeepers like Best Practice or exclusive partnerships. Automate everything without waiting for partnerships. True dispensary freedom.
                       </p>
                     </div>
                   </div>
@@ -112,7 +112,7 @@ export function FutureVisionSection() {
                     <div className="w-6 h-6 rounded bg-sunlight/20 flex items-center justify-center flex-shrink-0">
                       <span className="text-sunlight text-xs font-bold">1</span>
                     </div>
-                    <span className="text-sm">AI observes your clinical pattern</span>
+                    <span className="text-sm">AI observes your dispensary pattern</span>
                   </div>
                   <div className="flex items-center gap-3 text-sand-100">
                     <div className="w-6 h-6 rounded bg-sky/20 flex items-center justify-center flex-shrink-0">

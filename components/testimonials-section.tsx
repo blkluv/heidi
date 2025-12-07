@@ -58,7 +58,7 @@ export function TestimonialsSection() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-bark mb-2">Clinical Practice Study</h3>
+                <h3 className="text-xl font-semibold text-bark mb-2">Dispensary Practice Study</h3>
               </div>
             </div>
             <div className="space-y-4">
@@ -66,7 +66,7 @@ export function TestimonialsSection() {
                 70% improvement
               </p>
               <p className="text-lg text-secondary leading-relaxed">
-                in clinician workflow satisfaction and reduced administrative burden.
+                in marketing workflow satisfaction and reduced administrative burden.
               </p>
               <a href="#" className="inline-flex items-center gap-2 text-bark hover:text-primary transition-colors group">
                 <span className="font-semibold">Read the report</span>
@@ -92,7 +92,7 @@ export function TestimonialsSection() {
             </div>
 
             <p className="text-xl md:text-2xl font-semibold leading-relaxed text-center">
-              Clinical automation demands a new approach to EMR integration.
+              Dispensary marketing automation.
             </p>
           </div>
         </div>
