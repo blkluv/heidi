@@ -27,7 +27,7 @@ export function CTASection() {
       <div className="container mx-auto px-4 md:px-6 max-w-5xl relative z-10">
         <div className="text-center space-y-8">
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-inverted leading-tight text-balance animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.1s' }}>
-            The first step towards <span className="italic text-sunlight">zero-admin</span> medicine.
+            The first step towards <span className="italic text-sunlight">dispensary</span> social marketplace automation.
           </h2>
 
           <p className="text-xl md:text-2xl text-sand-100 leading-relaxed max-w-3xl mx-auto text-balance animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.2s' }}>
@@ -46,13 +46,13 @@ export function CTASection() {
           </div>
 
           <div className="pt-12 space-y-4 animate-[fadeInUp_0.8s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.3s' }}>
-            <p className="text-sand-100 text-sm">Trusted by clinicians worldwide</p>
+            <p className="text-sand-100 text-sm">Trusted by dispensaries worldwide</p>
             <div className="flex justify-center gap-8 opacity-60">
               <div className="text-sand-100 text-sm transition-all duration-300 hover:opacity-100 hover:scale-105">1.5-2.5 hrs saved daily</div>
               <div className="text-sand-100 text-sm">•</div>
-              <div className="text-sand-100 text-sm transition-all duration-300 hover:opacity-100 hover:scale-105">200+ specialties</div>
+              <div className="text-sand-100 text-sm transition-all duration-300 hover:opacity-100 hover:scale-105">200+ dispensaries</div>
               <div className="text-sand-100 text-sm">•</div>
-              <div className="text-sand-100 text-sm transition-all duration-300 hover:opacity-100 hover:scale-105">100% EMR compatible</div>
+              <div className="text-sand-100 text-sm transition-all duration-300 hover:opacity-100 hover:scale-105">0 social media algorithms</div>
             </div>
           </div>
         </div>

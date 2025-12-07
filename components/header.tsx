@@ -16,8 +16,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-12 items-center justify-center text-sm">
           <p className="text-[#211217]">
-            Heidi announces <span className="font-semibold">$65m Series B</span> to accelerate building the AI Care
-            Partner for Clinicians
+            HealXYZ announces <span className="font-semibold">$65m Series B</span> to accelerate building the AI social for dispensaries.
           </p>
         </div>
       </div>
@@ -48,9 +47,6 @@ export function Navigation() {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start">
                 <DropdownMenuItem>Features</DropdownMenuItem>
-                <DropdownMenuItem>Integrations</DropdownMenuItem>
-                <DropdownMenuItem>Security</DropdownMenuItem>
-                <DropdownMenuItem>EMR Compatibility</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 
@@ -59,10 +55,6 @@ export function Navigation() {
                 Specialties <ChevronDown className="w-3.5 h-3.5" />
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start">
-                <DropdownMenuItem>Primary Care</DropdownMenuItem>
-                <DropdownMenuItem>Specialists</DropdownMenuItem>
-                <DropdownMenuItem>Hospitals</DropdownMenuItem>
-                <DropdownMenuItem>All Specialties</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
 
@@ -81,7 +73,6 @@ export function Navigation() {
                 <DropdownMenuItem>Documentation</DropdownMenuItem>
                 <DropdownMenuItem>Blog</DropdownMenuItem>
                 <DropdownMenuItem>Support</DropdownMenuItem>
-                <DropdownMenuItem>Case Studies</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           </div>
