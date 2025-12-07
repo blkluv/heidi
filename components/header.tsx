@@ -37,7 +37,7 @@ export function Navigation() {
       <div className="container mx-auto px-6">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="text-[#211217]">
-            <img src="/heidi-logo-horizontal.svg" alt="Heidi" className="h-12 w-auto text-[#211217]" />
+            <img src="/heidi-logo-horizontal.svg" alt="HealXYZ" className="h-12 w-auto text-[#211217]" />
           </Link>
 
           <div className="hidden md:flex items-center gap-8">

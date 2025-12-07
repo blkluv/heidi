@@ -16,8 +16,8 @@ const lora = Lora({
 })
 
 export const metadata: Metadata = {
-  title: "Heidi - AI Care Partner for Clinicians",
-  description: "Get time back. Move care forward. Your AI scribe capturing notes, summaries, and follow-ups as you go.",
+  title: "HealXYZ - A social marketplace for Dispensaries",
+  description: "Get time back. Move care forward. Your AI automated social marketplace for patients and dispensaries.",
   generator: "v0.app",
   icons: {
     icon: [

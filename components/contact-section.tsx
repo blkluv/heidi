@@ -28,7 +28,7 @@ export function ContactSection() {
       <div className="container mx-auto px-4 md:px-6 max-w-4xl relative z-10">
         <div className="text-center space-y-8 mb-12">
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-[#211217] leading-tight">
-            Integrate <span className="italic">Hailey</span> into the <span className="italic">Heidi Health ecosystem</span>.
+            Onboard your <span className="italic">Dispensary</span> to a <span className="italic">social media marketplace</span> made for you to win.
           </h2>
           <p className="text-lg md:text-xl text-[#755760] leading-relaxed max-w-2xl mx-auto">
             Join us in building the future of dispensary automation.
@@ -39,10 +39,10 @@ export function ContactSection() {
           <div className="space-y-6">
             <div className="text-center space-y-4">
               <p className="text-lg text-[#211217]">
-                Interested in integrating our EMR automation into your practice?
+                Interested in a one stop shop of marketing solutions?
               </p>
               <p className="text-[#755760]">
-                Get in touch to learn more about how we can help eliminate admin work and give clinicians their time back.
+                Get in touch to learn more about how we can help eliminate outdated manual marketing to save time on daily tasks.
               </p>
             </div>
 
@@ -52,7 +52,7 @@ export function ContactSection() {
                 className="bg-[#211217] text-[#F9F4F1] hover:bg-[#211217]/90 rounded-full px-8 py-6 text-lg font-medium gap-2 transition-all duration-300 hover:scale-105 hover:shadow-xl active:scale-95"
                 asChild
               >
-                <a href="mailto:contact@heidi.com">
+                <a href="mailto:info@healxyz.com">
                   <Mail className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
                   Contact us
                 </a>
@@ -63,7 +63,7 @@ export function ContactSection() {
                 className="border-[#211217] text-[#211217] hover:bg-[#F9F4F1] rounded-full px-8 py-6 text-lg font-medium gap-2 transition-all duration-300 hover:scale-105 hover:shadow-lg active:scale-95"
                 asChild
               >
-                <a href="mailto:contact@heidi.com">
+                <a href="mailto:info@healxyz.com">
                   <MessageSquare className="w-5 h-5 transition-transform duration-300 group-hover:scale-110" />
                   Schedule a demo
                 </a>
